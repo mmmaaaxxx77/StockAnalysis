@@ -256,7 +256,7 @@ def analysis():
     ]
     """
     param_grid = [{
-        'svm__kernel': ['sigmoid', 'poly'],
+        'svm__kernel': ['rbf', 'linear', 'sigmoid'],
         'svm__C': param_range,
         'svm__gamma': param_range
     }]
