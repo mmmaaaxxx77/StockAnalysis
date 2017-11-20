@@ -196,14 +196,12 @@ def generator_train_data(data):
 
         _x.append([
             _.business_day_num,
-            _.val1,
             _.val2,
             _.val3,
             _.val4,
             _.val5,
             _.val6,
             _.val7,
-            _.val8,
             _.taiex4,
             _.ii1,
             _.ii2,
