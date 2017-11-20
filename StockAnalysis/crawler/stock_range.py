@@ -202,10 +202,13 @@ def generator_train_data(data):
             _.val4,
             _.val5,
             _.val6,
+            _.val7,
+            _.val8,
             _.taiex4,
             _.ii1,
             _.ii2,
             _.ii3,
+            _.fi1,
             _.fi2,
         ])
 
