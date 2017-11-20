@@ -196,9 +196,12 @@ def generator_train_data(data):
 
         _x.append([
             _.business_day_num,
-            _.val6,
             _.val1,
             _.val2,
+            _.val3,
+            _.val4,
+            _.val5,
+            _.val6,
             _.taiex4,
             _.ii1,
             _.ii2,
@@ -264,7 +267,7 @@ def analysis():
                       param_grid=param_grid,
                       scoring='accuracy',
                       cv=10,
-                      n_jobs=2)
+                      n_jobs=4)
     gs.fit(x_test, y_test)
     print(gs.best_score_)
     print(gs.best_params_)
